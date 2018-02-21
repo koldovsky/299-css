@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+:root {
+    font-size: 20px;
+}
+
+h1 {
+    color: rgba(59, 155, 100, 0.1);
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+}
+
+div + p {
+    color: green;
+}
+
+p::first-letter {
+    color: yellow;
+}
+
+p:hover {
+    color: red;
+}
